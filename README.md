@@ -2,11 +2,17 @@
 
 ## Overview
 
-ACCENTOR consists of human-annotated chit-chat additions to 23.8K dialogues from Schema Guided Dialogue (SGD) and MultiWOZ 2.1.
+ACCENTOR consists of the human-annotated chit-chat additions to the 23.8K dialogues from Schema Guided Dialogue (SGD) and MultiWOZ 2.1, allowing researchers to study contexutal addition of chit-chat utterances for virtual assistants, to make task-oriented dialogues more engaging and social. 
+
+We also provide three new models for ACCENTOR explicitly trained to predict user goals and to generate contextually relevant chit-chat responses.
+
+Automatic and human evaluations show that, compared with the state of-the-art task-oriented baseline, our models can code-switch between task and chit-chat to be more engaging, interesting, knowledgeable, and humanlike, while maintaining competitive task performance.
+
+For more details, please refer to this [paper][accentor_arxiv].
 
 ## Citations
 
-If you want to publish experimental results with our datasets or use the baseline models, please cite the following article [pdf][accentor_arxiv]:
+If you want to publish experimental results with our datasets or use the baseline models, please cite the following article ([pdf][accentor_arxiv]):
 ```
 @article{sun2020adding,
   title={Adding Chit-chats to Enhance Task-oriented Dialogues},
