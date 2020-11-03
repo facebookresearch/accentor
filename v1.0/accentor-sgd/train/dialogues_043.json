@@ -214,10 +214,12 @@
     "end": [
      {
       "candidate": "It's also a great place to grab a bite to eat.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It's my favorite place to eat.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -310,6 +312,7 @@
     "end": [
      {
       "candidate": " Hope you like seafood!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -677,10 +680,12 @@
     "end": [
      {
       "candidate": "I like both.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you like Asian food?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -752,16 +757,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I love Asian cuisine.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have a reservation?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -840,10 +848,12 @@
     "end": [
      {
       "candidate": "Do you have any special dietary restrictions?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great time at the restaurant. Do you have any special dietary restrictions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -1208,16 +1218,19 @@
     "beginning": [
      {
       "candidate": "It's a great place to eat!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " They're all located in the Mission District. It's a great place to eat!",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I'm sure you'll love it!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -1349,6 +1362,7 @@
     "beginning": [
      {
       "candidate": "Thank you for your interest.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -1487,10 +1501,12 @@
     "end": [
      {
       "candidate": "Thanks!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you have a preference for the type of food you would like to eat?   Thanks!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -1602,6 +1618,7 @@
     "end": [
      {
       "candidate": " What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -1675,16 +1692,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You're welcome. I hope you enjoy your meal.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -1937,10 +1957,12 @@
     "end": [
      {
       "candidate": "What are your favorite dishes to eat at Ayola?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "What is your favorite type of Italian food?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -2100,6 +2122,7 @@
     "end": [
      {
       "candidate": " It's an Italian-American fusion restaurant.  Have you tried it?",
+      "label": "good",
       "justification": "social & useful"
      }
     ]
@@ -2311,10 +2334,12 @@
     "beginning": [
      {
       "candidate": " sounds like a good time .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " That sounds great.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -2568,6 +2593,7 @@
     "end": [
      {
       "candidate": "What do you like to drink?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -2665,10 +2691,12 @@
     "end": [
      {
       "candidate": "Do you have any recommendations for places to eat?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It's a great place to eat and drink. Do you have any recommendations for places to eat?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -2743,10 +2771,12 @@
     "end": [
      {
       "candidate": " Cheers.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Bartolomeo Cristofori",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -2992,12 +3022,14 @@
     "beginning": [
      {
       "candidate": " sushi is delicious .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you have a favorite sushi place in your area?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -3058,6 +3090,7 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -3276,6 +3309,7 @@
     "end": [
      {
       "candidate": "Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -3372,6 +3406,7 @@
     "end": [
      {
       "candidate": "I can't wait to try the sushi!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -3442,16 +3477,19 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy your meal .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I hope you enjoy your sushi.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "What was your sentence?21.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -3529,10 +3567,12 @@
     "end": [
      {
       "candidate": " Do you like sushi?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you like sushi? I do, it's my favorite type of cuisine.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -3741,6 +3781,7 @@
     "beginning": [
      {
       "candidate": "it ' s a great place to meet new people .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -3961,6 +4002,7 @@
     "beginning": [
      {
       "candidate": " Sounds good.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -4055,10 +4097,12 @@
     "end": [
      {
       "candidate": "Please let me know what you think.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you have any special requests for your meal?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -4126,16 +4170,19 @@
     "beginning": [
      {
       "candidate": "i hope you have a great time .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You're welcome! I hope you enjoy your meal!",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I'd like to make sure you have a great time.   -Thank you!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -4209,16 +4256,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " See you next time.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Don't forget to tip your waitstaff.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -4353,10 +4403,12 @@
     "end": [
      {
       "candidate": " There's a lot to choose from.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It's a big city, so there's something for everyone. What kind of food do you like?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -4565,12 +4617,14 @@
     "beginning": [
      {
       "candidate": " Curry is a great choice.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "What's your favorite?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -4920,6 +4974,7 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -5020,6 +5075,7 @@
     "end": [
      {
       "candidate": "I hope you have a great time there!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -5089,6 +5145,7 @@
     "beginning": [
      {
       "candidate": "i hope you have a great day .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -5165,16 +5222,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Enjoy the rest of your evening.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Let me know if there's anything else I can do for you. I'm happy to help.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -5414,12 +5474,14 @@
     "beginning": [
      {
       "candidate": "i ' ll have to check it out .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "It is a great place to have a meal.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -5511,10 +5573,12 @@
     "end": [
      {
       "candidate": "What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " They specialize in Mexican and Tex-Mex cuisine. What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -5885,12 +5949,14 @@
     "beginning": [
      {
       "candidate": " That's a good time.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Thanks!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -6093,6 +6159,7 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -6171,16 +6238,19 @@
     "beginning": [
      {
       "candidate": "I hope you have a great evening and enjoy your meal.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time at the restaurant.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Enjoy the rest of your trip.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -6297,16 +6367,19 @@
     "beginning": [
      {
       "candidate": " i ' ve never had chinese food , but it sounds good .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " What kind of Chinese food do you like?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I love pasta.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -6506,6 +6579,7 @@
     "end": [
      {
       "candidate": "I love Chinese food!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -6585,16 +6659,19 @@
     "beginning": [
      {
       "candidate": " there are a lot of options .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "There are so many great restaurants.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "It's a great place to eat.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -7271,16 +7348,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " you ' re welcome , i hope you have a good time .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " how are you doing?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -7532,16 +7612,19 @@
     "beginning": [
      {
       "candidate": "I hope you find a good place!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "You should definitely check it out.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "I love Mexican food.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -7726,6 +7809,7 @@
     "end": [
      {
       "candidate": "I do.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -8022,6 +8106,7 @@
     "end": [
      {
       "candidate": " The restaurant was very nice and the food was very good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -8183,10 +8268,12 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is one of my favorite restaurants.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -8262,16 +8349,19 @@
     "beginning": [
      {
       "candidate": "and a good rest of your day .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It is a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " . I hope you enjoy your time in the Bay Area. It is a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -8570,16 +8660,19 @@
     "beginning": [
      {
       "candidate": " that sounds good .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " You should check it out.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "If you're looking for a place to grab a bite to eat, this is a great place to go.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -8648,10 +8741,12 @@
     "end": [
      {
       "candidate": "It's a great place to eat.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": "I love dumplings too!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -8813,10 +8908,12 @@
     "end": [
      {
       "candidate": " The dumplings are really good though, and they have a wide selection of desserts.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " They do have a great selection of dumplings and other Asian cuisine, though.",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -9177,16 +9274,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " and enjoy your meal!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " and enjoy the rest of your stay at franie's restaurant in hayward, california",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -9381,12 +9481,14 @@
     "beginning": [
      {
       "candidate": " I've never been to Newark, but I've heard it's a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you for your time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -9471,10 +9573,12 @@
     "end": [
      {
       "candidate": "What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " They specialize in afghan cuisine. What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -9720,6 +9824,7 @@
     "beginning": [
      {
       "candidate": " sounds like a plan .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -10064,6 +10169,7 @@
     "end": [
      {
       "candidate": "I hope you enjoy your meal!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -10132,6 +10238,7 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -10207,16 +10314,19 @@
     "beginning": [
      {
       "candidate": " you are very welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You are welcome. I hope you enjoy your meal.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " If you need anything else, please don't hesitate to contact me.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -10547,10 +10657,12 @@
     "end": [
      {
       "candidate": " It is a Taiwanese cuisine. Do you like that kind of food?",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "Do you like that kind of food?",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -10755,6 +10867,7 @@
     "beginning": [
      {
       "candidate": " That sounds good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -10879,10 +10992,12 @@
     "end": [
      {
       "candidate": "Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Please send me your email address so that I can send you the confirmation email. Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -11083,12 +11198,14 @@
     "beginning": [
      {
       "candidate": "please .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any special requests for the meal?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -11166,16 +11283,19 @@
     "beginning": [
      {
       "candidate": "  Thank you very much.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " How are you doing?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I like to go for walks in the park.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -11629,10 +11749,12 @@
     "end": [
      {
       "candidate": "It is also very expensive though.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "It is one of my favorite restaurants.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -11698,10 +11820,12 @@
     "end": [
      {
       "candidate": "What kind of food do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I'm a big fan of Asian cuisine.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -11833,6 +11957,7 @@
     "beginning": [
      {
       "candidate": " Alta is a great restaurant.",
+      "label": "good",
       "justification": "useful"
      }
     ],
@@ -11973,6 +12098,7 @@
     "beginning": [
      {
       "candidate": " that sounds like a good time .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -12095,6 +12221,7 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -12251,16 +12378,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Cheers!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -12536,10 +12666,12 @@
     "end": [
      {
       "candidate": "What do you think?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is located in the heart of downtown San Jose and is a great place to go for lunch or dinner.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -12620,6 +12752,7 @@
     "end": [
      {
       "candidate": "You should check it out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -13069,6 +13202,7 @@
     "beginning": [
      {
       "candidate": "thank you so much !",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -13161,10 +13295,12 @@
     "end": [
      {
       "candidate": " I think it's a good place to go for a special occasion. What do you think?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It's a nice place to eat.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -13232,12 +13368,14 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you think it is a good idea?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -13312,10 +13450,12 @@
     "end": [
      {
       "candidate": " what time do you want to arrive at the restaurant?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " what time do you want to come in?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -13727,10 +13867,12 @@
     "end": [
      {
       "candidate": "Do you think it's worth it?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you have any other ideas?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -13802,16 +13944,19 @@
     "beginning": [
      {
       "candidate": " i hope you enjoy it .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have a favorite superhero?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "You can get discounts on concessions.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -13879,10 +14024,12 @@
     "beginning": [
      {
       "candidate": " I understand.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Mine is Spider-Man.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -13957,16 +14104,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time at the movie.  Take care.  Bye.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Take care.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -14205,16 +14355,19 @@
     "beginning": [
      {
       "candidate": " i ' m not familiar with that area , but i do know that there are a lot of good movies there .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Star Trek: The Next Generation",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I love it here.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -14321,10 +14474,12 @@
     "end": [
      {
       "candidate": "It's a great movie.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " I can recommend a good time.",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -14456,16 +14611,19 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll like it , it ' s one of the best movies of all time .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I love horror movies.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It is a horror movie.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -14540,10 +14698,12 @@
     "end": [
      {
       "candidate": " Do you have any plans for the rest of the day?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I love going to the movies, it's one of my favorite things to do in the evening.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -14751,16 +14911,19 @@
     "beginning": [
      {
       "candidate": " that sounds like fun .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Is it new?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Which one do you want to see?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -14842,6 +15005,7 @@
     "end": [
      {
       "candidate": " I can try to find out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -14963,6 +15127,7 @@
     "end": [
      {
       "candidate": " I think that would be a good time to see it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15043,16 +15208,19 @@
     "beginning": [
      {
       "candidate": "The Veranda is a great place to see a movie.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Not that I am aware of.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I might be able to help.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -15124,10 +15292,12 @@
     "end": [
      {
       "candidate": "The Veranda is a nice theater.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let us know if you have any other questions.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15328,10 +15498,12 @@
     "end": [
      {
       "candidate": "What did you think?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I wonder what he was like.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15407,16 +15579,19 @@
     "beginning": [
      {
       "candidate": " i think so too .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " i ' m sure you will like it .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I can do that for you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15630,10 +15805,12 @@
     "end": [
      {
       "candidate": "What day would you like to see it?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " No, I don't want to waste my money.  What day would you like to see it?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15711,16 +15888,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time at the theater.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Let me know what you think of the movie when you see it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -15957,16 +16137,19 @@
     "beginning": [
      {
       "candidate": "  Please let me know if you're in the area and I'll get back to you as soon as possible.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Which one do you prefer?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  If so, please let me know and I'll add them to the list.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -16184,10 +16367,12 @@
     "beginning": [
      {
       "candidate": " You are welcome. I hope you enjoy the movie.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " ok , see you then .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -16288,10 +16473,12 @@
     "end": [
      {
       "candidate": "It's a great thriller movie.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  How much does it cost to see this movie?",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -16365,16 +16552,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy the movie.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I hope you have a great time at the movie theater tomorrow.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -16560,10 +16750,12 @@
     "end": [
      {
       "candidate": "It's pretty good.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It's in theaters now.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -16638,10 +16830,12 @@
     "beginning": [
      {
       "candidate": " red joan is a great movie .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " She's a great actress.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -16713,6 +16907,7 @@
     "beginning": [
      {
       "candidate": "it ' s one of my favorites .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -16845,10 +17040,12 @@
     "end": [
      {
       "candidate": "I think it would be a good movie to see.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Is that the one you want to see?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17014,16 +17211,19 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you get the help you need.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I work at a theater as a projectionist.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17251,16 +17451,19 @@
     "beginning": [
      {
       "candidate": " will do , thanks for the heads up .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I will do that, thank you!",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I love those movies.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17333,10 +17536,12 @@
     "end": [
      {
       "candidate": "It's a great theater.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Yes, there are a lot of movies playing there.  It's a great theater.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17624,10 +17829,12 @@
     "end": [
      {
       "candidate": " I can help you out.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I can get you a ticket if you need one.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17701,16 +17908,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I wish you the best of luck in your future endeavors.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I'm going to watch a movie now.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -17900,10 +18110,12 @@
     "end": [
      {
       "candidate": "Thanks!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  I'm not sure which one is better.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -18164,12 +18376,14 @@
     "beginning": [
      {
       "candidate": " sure .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any other suggestions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -18303,16 +18517,19 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll like it .",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": "I like to watch romantic comedies.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any hobbies?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -18383,16 +18600,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any plans for the weekend?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I'm going to watch a romantic comedy. It's my favorite genre of movie.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -18556,10 +18776,12 @@
     "end": [
      {
       "candidate": "Have you seen it?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I haven't seen it yet, but it's supposed to be good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -18631,10 +18853,12 @@
     "beginning": [
      {
       "candidate": " It really is a great movie.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " it really is .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -18856,6 +19080,7 @@
     "end": [
      {
       "candidate": " Would that work for you?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -18935,16 +19160,19 @@
     "beginning": [
      {
       "candidate": " they are free .",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " I'm not sure, but I'm sure you can find out on their website.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " How about you?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -19022,10 +19250,12 @@
     "end": [
      {
       "candidate": " By the way, do you know how much the tickets are?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you have any plans this weekend?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -19199,10 +19429,12 @@
     "end": [
      {
       "candidate": " It is a romantic comedy directed by Richard Linklater. Have you seen it?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It's a crime thriller.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -19270,10 +19502,12 @@
     "beginning": [
      {
       "candidate": " thank you .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I agree.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -19425,6 +19659,7 @@
     "beginning": [
      {
       "candidate": "It is based on a true story.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -19502,10 +19737,12 @@
     "end": [
      {
       "candidate": " I hope you enjoy the movie!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I can't wait to see it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -19578,16 +19815,19 @@
     "beginning": [
      {
       "candidate": "what else do you like to do for fun ?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy the movie as much as I will.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you enjoy the movie as much as I am going to enjoy seeing it in IMAX.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -19801,16 +20041,19 @@
     "beginning": [
      {
       "candidate": " that ' s a great place to watch movies . i ' m sure you ' ll enjoy it .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " that ' s a great place to watch movies .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you want to see any of those?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -19882,6 +20125,7 @@
     "beginning": [
      {
       "candidate": "I like Dumbo.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -19940,10 +20184,12 @@
     "beginning": [
      {
       "candidate": "It's a great movie.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": "i ' m sure you ' ll have a great time watching it .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -20137,10 +20383,12 @@
     "end": [
      {
       "candidate": " Is that good for you?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Is there anything I can do to help?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -20214,10 +20462,12 @@
     "end": [
      {
       "candidate": " I hope you enjoy the movie.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great time at the theater.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -20578,10 +20828,12 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "martin .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -20662,10 +20914,12 @@
     "end": [
      {
       "candidate": "Do you think it is worth it?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you think it is worth it to see a biographical movie in theatres?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -20735,16 +20989,19 @@
     "beginning": [
      {
       "candidate": "  to me.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Mine is The Greatest Story Never Told.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I work at a movie theater as a projectionist.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -20820,16 +21077,19 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy the movie .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " or night depending on where you are located in the world. I hope you enjoy the movie.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " or night wherever you are",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -21044,10 +21304,12 @@
     "end": [
      {
       "candidate": "I hope you like it.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It's a musical comedy from 1985. I hope you like it.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -21125,6 +21387,7 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll like it .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -21189,16 +21452,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Sounds good. I hope you enjoy the movie.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I'd be happy to help you out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -21333,6 +21599,7 @@
     "beginning": [
      {
       "candidate": " I think that would be a great time to see the movie.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -21409,16 +21676,19 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll find something else you ' d like to check out , though .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I will be there at the same time I don't have a car so I can get a ride to the airport on time.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you will enjoy the movie as much as I am going to enjoy watching it with you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -21644,10 +21914,12 @@
     "end": [
      {
       "candidate": "It's a fantasy movie.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " I think it's going to be a great movie.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -21708,16 +21980,19 @@
     "beginning": [
      {
       "candidate": " No problem.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " ok , have a good one .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I'd love to help.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -21912,12 +22187,14 @@
     "beginning": [
      {
       "candidate": " that sounds like a good idea .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I think that would be a great time to go.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -21994,16 +22271,19 @@
     "beginning": [
      {
       "candidate": "  Thanks for your time.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Enjoy the movie!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Mine is blue.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -22245,10 +22525,12 @@
     "beginning": [
      {
       "candidate": "i ' ve heard good things about transit .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " i ' m not sure , but i think it ' s going to be good .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -22381,10 +22663,12 @@
     "beginning": [
      {
       "candidate": "i ' m sure you ' ll enjoy it .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "it ' s going to be a great movie .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -22461,16 +22745,19 @@
     "beginning": [
      {
       "candidate": " i ' m not sure , but i think it ' s free .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you like 3D movies?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I would love to see the Invisible.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -22543,16 +22830,19 @@
     "beginning": [
      {
       "candidate": "I like going on Fridays because it is cheap.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any plans for the weekend?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "What did you see?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -22773,6 +23063,7 @@
     "end": [
      {
       "candidate": "  Click here to buy your tickets.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -22833,6 +23124,7 @@
     "beginning": [
      {
       "candidate": " that ' s too bad .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -23014,16 +23306,19 @@
     "beginning": [
      {
       "candidate": " it ' s going to be awesome .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "What time would you like to go see it?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you think it will work?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -23103,16 +23398,19 @@
     "beginning": [
      {
       "candidate": " not that i am aware of , but i ' m sure you ' ll find something you like .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I can help you get tickets.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I can help you with anything you need to know.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -23182,12 +23480,14 @@
     "beginning": [
      {
       "candidate": "  Thank you for your time.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Have a great day ahead.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -23418,16 +23718,19 @@
     "beginning": [
      {
       "candidate": "I can't wait to see it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It's a great comedy.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I can do that for you if you'd like.  It's a great comedy.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -23488,12 +23791,14 @@
     "beginning": [
      {
       "candidate": " ok , have a good day .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I'd be happy to answer them.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -23684,6 +23989,7 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to go to the movies.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -23825,10 +24131,12 @@
     "end": [
      {
       "candidate": "What is the showtime?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " No, thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -23903,10 +24211,12 @@
     "end": [
      {
       "candidate": "I hope you have a good time.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": " I'm going to see the movie on March 2nd. I hope you have a good time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -24116,10 +24426,12 @@
     "end": [
      {
       "candidate": "Do you have a favorite genre of movies?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Those are some of my favorites.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -24228,10 +24540,12 @@
     "end": [
      {
       "candidate": "What is it about?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Is it a comedy?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -24329,10 +24643,12 @@
     "end": [
      {
       "candidate": "What do you think?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Have you seen it?  I think it is a great movie.  What do you think?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -24390,12 +24706,14 @@
     "beginning": [
      {
       "candidate": "  Thank you for your time.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any suggestions?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -24460,10 +24778,12 @@
     "end": [
      {
       "candidate": "Mine is Clint Eastwood.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Who is your favorite director?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -24634,6 +24954,7 @@
     "end": [
      {
       "candidate": " It came out in 1997.  It's a comedy and it's about the mob.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -24732,6 +25053,7 @@
     "end": [
      {
       "candidate": " What is your favorite movie?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -24793,10 +25115,12 @@
     "end": [
      {
       "candidate": "What is yours?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I love the sky.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -24857,16 +25181,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i hope you enjoy the movie as much as i enjoy the show .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Anything you want to get off your chest?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -24933,16 +25260,19 @@
     "beginning": [
      {
       "candidate": "it ' s going to be great .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a great rest of your day.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Take care.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -25116,10 +25446,12 @@
     "end": [
      {
       "candidate": "I like movies about people's lives too.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Those are some of my favorites.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -25181,16 +25513,19 @@
     "beginning": [
      {
       "candidate": " search for sugar is one of my favorites .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It's one of my favorites.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It's an indie film directed by Richard Linklater. It's one of my favorites.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -25393,10 +25728,12 @@
     "end": [
      {
       "candidate": "Comedy?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Drama?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -25461,16 +25798,19 @@
     "beginning": [
      {
       "candidate": "Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I love learning about new people.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  and have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -25621,16 +25961,19 @@
     "beginning": [
      {
       "candidate": " i haven ' t seen those , but i ' ve heard good things about them . i ' ll have to check them out .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " It's an Italian horror film directed by Peter Bogdanovich.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It's an Italian horror film.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -25726,6 +26069,7 @@
     "end": [
      {
       "candidate": "I hope you enjoy it.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -25784,10 +26128,12 @@
     "end": [
      {
       "candidate": "What is your favorite genre of movies?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It was great!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -25845,6 +26191,7 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -25909,16 +26256,19 @@
     "beginning": [
      {
       "candidate": " sure thing .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "What kind do you like?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I'll bring you some. What kind do you like? I like caramel and cheddar.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -26137,16 +26487,19 @@
     "beginning": [
      {
       "candidate": " That's cool.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you like any of those?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I like action, comedy, and sci-fi. Do you like any of those?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -26242,6 +26595,7 @@
     "end": [
      {
       "candidate": " It's one of my favorites.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -26397,12 +26751,14 @@
     "beginning": [
      {
       "candidate": " okay , i hope you enjoy it .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I can't wait to see it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -26460,10 +26816,12 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i hope you enjoy it as much as i enjoy watching high life .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -26528,12 +26886,14 @@
     "beginning": [
      {
       "candidate": "  Thank you very much.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " If you need anything else, please don't hesitate to contact me.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -26717,10 +27077,12 @@
     "end": [
      {
       "candidate": " Let me know what you think.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "What is your favorite documentary?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -26789,10 +27151,12 @@
     "beginning": [
      {
       "candidate": " yes , breakthrough is a great film .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It is a great movie.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -26868,6 +27232,7 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll like it .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -26927,10 +27292,12 @@
     "end": [
      {
       "candidate": "I think it would be a good movie to watch.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It will help you understand what is being said.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -26994,16 +27361,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Thanks for the chat.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you have any other movies you'd like to recommend?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -27286,18 +27656,22 @@
     "end": [
      {
       "candidate": "   Please wait a few seconds.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you like horror movies?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I love them.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope it is a good one.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -27364,28 +27738,34 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I am glad you enjoyed it.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " You are welcome. What is your favorite movie? Mine is The Usual Suspects.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Mine is The Usual Suspects.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a great rest of your day as well.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Thank you for chatting with me.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -27741,10 +28121,12 @@
     "end": [
      {
       "candidate": " ? No, I don't want to.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I want to watch the movie without them, please confirm.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -27842,10 +28224,12 @@
     "end": [
      {
       "candidate": "What is your favorite movie?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  http://www.iainsoftley.co.uk/",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -27903,16 +28287,19 @@
     "beginning": [
      {
       "candidate": "He's a great director.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I like to play tennis.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you play any sports?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -27976,16 +28363,19 @@
     "beginning": [
      {
       "candidate": " That's too bad.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It's my favorite movie of all time.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I'm going to watch High Life.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -28160,12 +28550,14 @@
     "beginning": [
      {
       "candidate": " i don ' t know much about thriller movies , but i do know that he is a great director .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " It is based on a Stephen King novel.  It is a thriller.  Have you seen it?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -28237,6 +28629,7 @@
     "beginning": [
      {
       "candidate": " I agree.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -28316,6 +28709,7 @@
     "end": [
      {
       "candidate": " It is one of the best horror movies of all time.",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -28478,10 +28872,12 @@
     "end": [
      {
       "candidate": "I love Stephen King.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " What is your favorite horror movie?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -28542,12 +28938,14 @@
     "beginning": [
      {
       "candidate": " you are very welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I'm very good at it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -28615,10 +29013,12 @@
     "end": [
      {
       "candidate": "I like to read.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you have a favorite day?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -28838,10 +29238,12 @@
     "end": [
      {
       "candidate": "I love comedy too.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "What is your favorite comedy?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29030,6 +29432,7 @@
     "beginning": [
      {
       "candidate": " Sounds good.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -29121,12 +29524,14 @@
     "beginning": [
      {
       "candidate": " okay , that ' s fine .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Sounds great.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29202,12 +29607,14 @@
     "beginning": [
      {
       "candidate": " Great!",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I hope it's good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29274,16 +29681,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Take care.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " How are you doing?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29510,16 +29920,19 @@
     "beginning": [
      {
       "candidate": "I love it.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " it ' s a great movie .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "It's one of my favorite movies of all time.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -29612,6 +30025,7 @@
     "end": [
      {
       "candidate": " Do you have any suggestions for movies to watch with your kids?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29689,16 +30103,19 @@
     "beginning": [
      {
       "candidate": " yes , i can turn them on .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I love that movie.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Let's see if we can make it work.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -29767,16 +30184,19 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy it as much as i enjoy watching it with my children .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Goodbye. Good night. Good morning. Good afternoon, good evening, and good night.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you enjoy the movie as much as I did.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -29995,6 +30415,7 @@
     "beginning": [
      {
       "candidate": " Yes.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -30072,10 +30493,12 @@
     "end": [
      {
       "candidate": " What kind of movies do you like?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Which one do you think I should watch first?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -30289,10 +30712,12 @@
     "end": [
      {
       "candidate": "I love her work.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "She is a great director.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -30350,12 +30775,14 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy it as much as i enjoy watching it with subtitles .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Mine is ramen.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -30419,16 +30846,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Have a great day!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Good night, and I hope you have a great day tomorrow!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -30611,6 +31041,7 @@
     "beginning": [
      {
       "candidate": " that ' s cool .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -30727,6 +31158,7 @@
     "end": [
      {
       "candidate": " Do you have a favorite genre?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -30796,6 +31228,7 @@
     "end": [
      {
       "candidate": "I think the original is better, but that's just me.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -30951,16 +31384,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "What is yours?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " What is your favorite movie of all time?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31018,10 +31454,12 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy the movie as much as i enjoy watching the film .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "i hope you enjoy the movie as much as i enjoy my netflix subscription .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -31087,10 +31525,12 @@
     "end": [
      {
       "candidate": " Do you have any hobbies? I like to read mystery novels. What about you?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I like to read mystery novels.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31264,6 +31704,7 @@
     "end": [
      {
       "candidate": " Those are some of my favorites.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31374,6 +31815,7 @@
     "beginning": [
      {
       "candidate": " that sounds like a good idea .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -31487,10 +31929,12 @@
     "end": [
      {
       "candidate": " That's a great idea!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Let's see how it works out for you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -31567,16 +32011,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " What do you think?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " What do you want to know about it?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31644,16 +32091,19 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I like to read comic books and play video games.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31892,12 +32342,14 @@
     "beginning": [
      {
       "candidate": " that ' s a good idea .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "What is it about?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -31973,16 +32425,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It is very good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -32044,10 +32499,12 @@
     "end": [
      {
       "candidate": "I love Indian food.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "It's my favorite cuisine.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -32114,16 +32571,19 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I like action, suspense and thrillers.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I like to watch movies and play video games.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -32342,16 +32802,19 @@
     "beginning": [
      {
       "candidate": " Drama is a good genre.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I can send you a link if you want to check them out.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "What's your favorite?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -32540,10 +33003,12 @@
     "beginning": [
      {
       "candidate": " yes , you can .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Of course you can.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -32606,10 +33071,12 @@
     "end": [
      {
       "candidate": "  Thank you for your time.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  If you have any questions, feel free to ask.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -32676,16 +33143,19 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a good day too.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Do you have any hobbies? I like to play tennis. What do you do for fun?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -32865,16 +33335,19 @@
     "beginning": [
      {
       "candidate": " i ' m not familiar with justin kelly , but i ' ve heard good things about his movies .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " He's an American director and screenwriter. Have you seen any of his movies?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " He's one of my favorite directors.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -32946,12 +33419,14 @@
     "beginning": [
      {
       "candidate": "i ' ll have to check it out .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I think you'll like it.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33043,6 +33518,7 @@
     "end": [
      {
       "candidate": "Let me know if you have any other questions.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33119,10 +33595,12 @@
     "end": [
      {
       "candidate": "I can help you with that if you don't.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you know how to use a remote control?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33190,10 +33668,12 @@
     "end": [
      {
       "candidate": " Let me know what you think when you're done.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let me know what you think.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33426,16 +33906,19 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to visit London.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a great time in London!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Will you be staying in a hotel or a house? I hope you have a great time in London!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33681,10 +34164,12 @@
     "end": [
      {
       "candidate": " I hope you enjoy your stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Would you like to upgrade to a suite?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -33748,16 +34233,19 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Have you booked your flight yet or are you waiting to see if you can get a better deal?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I can help you with that as well if you'd like.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -33828,10 +34316,12 @@
     "end": [
      {
       "candidate": "Have a great trip!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Please let me know if I can help you with anything else in the future.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -34061,16 +34551,19 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to visit.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " That's a great time of year to visit.  I hope you enjoy your stay.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -34156,6 +34649,7 @@
     "end": [
      {
       "candidate": "I will be happy to answer any questions you may have.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -34218,16 +34712,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I love it there.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a great trip!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -34296,16 +34793,19 @@
     "beginning": [
      {
       "candidate": "I hope you have a great time in Thailand.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Regards,   Richard Nixon   D.E.A.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "KL is a great place to visit, you'll love it.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -34465,16 +34965,19 @@
     "beginning": [
      {
       "candidate": " That sounds like a great plan.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "A house?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "A mansion?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -34611,10 +35114,12 @@
     "end": [
      {
       "candidate": " Does that sound right?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Is that correct?  If so, I can do that for you.  Just let me know.",
+      "label": "good",
       "justification": "social & useful"
      }
     ]
@@ -34701,10 +35206,12 @@
     "end": [
      {
       "candidate": " I hope you enjoy your stay!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Are you excited?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -34780,6 +35287,7 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll be able to find a good place to stay .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -34851,10 +35359,12 @@
     "end": [
      {
       "candidate": " Enjoy your trip.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I'll see you next week.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -35019,10 +35529,12 @@
     "beginning": [
      {
       "candidate": "  Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " i ' m sure i can .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -35139,6 +35651,7 @@
     "end": [
      {
       "candidate": "Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -35240,16 +35753,19 @@
     "beginning": [
      {
       "candidate": " Atlanta is a great place to visit.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any reservations?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I can help you with your reservations.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -35334,10 +35850,12 @@
     "end": [
      {
       "candidate": "Have a great trip!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Have a great time in Atlanta!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -35406,10 +35924,12 @@
     "end": [
      {
       "candidate": " Don't forget to tip your waitstaff.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Don't forget to tip your waitstaff. They are the backbone of the restaurant industry.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -35550,16 +36070,19 @@
     "beginning": [
      {
       "candidate": " London is a great place to visit.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I would like to know so I can make arrangements to have the house ready for you.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": " I want to make sure the house is ready for you when you check in on the 15th.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -35690,6 +36213,7 @@
     "beginning": [
      {
       "candidate": " That sounds like a lot of fun.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -35777,6 +36301,7 @@
     "end": [
      {
       "candidate": "I hear it's a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -35840,16 +36365,19 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy your stay in london .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I'd be more than happy to answer them for you!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Have you booked your accommodation yet, or do you need help with that as well?",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -35920,10 +36448,12 @@
     "end": [
      {
       "candidate": " I wish you the best of luck with your stay in London.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I hope you have a great time in London.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -36147,16 +36677,19 @@
     "beginning": [
      {
       "candidate": " that sounds like a lot of fun .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " that ' s a long trip .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Much appreciated.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -36241,10 +36774,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " We will see you on the 12th of March.  Have a great trip.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -36335,12 +36870,14 @@
     "beginning": [
      {
       "candidate": " yes , it has a laundry service .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " It is located in the old part of the city.  Have you been there before?",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -36408,16 +36945,19 @@
     "beginning": [
      {
       "candidate": "I hope you enjoy your stay here in the Philippines.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Don't forget to tip your waitstaff.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -36645,10 +37185,12 @@
     "end": [
      {
       "candidate": " If so, that sounds like a good plan to me.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " If so, that sounds great!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -36766,16 +37308,19 @@
     "beginning": [
      {
       "candidate": "Paris is a great place to visit.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " oh okay , that makes more sense .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Why is that?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -36861,6 +37406,7 @@
     "end": [
      {
       "candidate": " Have a great trip!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -36930,10 +37476,12 @@
     "end": [
      {
       "candidate": " We have a washer and dryer in the room.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "How many people will be staying with you?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -37003,10 +37551,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I can't wait to see the Eiffel Tower.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -37232,16 +37782,19 @@
     "beginning": [
      {
       "candidate": "i ' m sure you ' ll have a great time .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " that ' s a lot of people .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I hope you enjoy your stay in LB!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -37327,16 +37880,19 @@
     "beginning": [
      {
       "candidate": "i ' m sure you ' ll enjoy your stay there .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any recommendations for things to do in long beach?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I look forward to visiting your beach house next week.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -37400,10 +37956,12 @@
     "beginning": [
      {
       "candidate": " you are welcome . i hope you enjoy your trip .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i ' m sure you will enjoy it .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -37475,10 +38033,12 @@
     "end": [
      {
       "candidate": " Don't forget to tip your waiters and waitresses, it's the least we can do!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a wonderful trip!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -37706,12 +38266,14 @@
     "beginning": [
      {
       "candidate": " That sounds great!",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any preferences as to where you would like to stay? Thank you so much!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -37830,10 +38392,12 @@
     "end": [
      {
       "candidate": "I mean, you don't want to be late, do you?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Are you sure you want to do that?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38024,6 +38588,7 @@
     "end": [
      {
       "candidate": " See you next week!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38121,16 +38686,19 @@
     "beginning": [
      {
       "candidate": " sure , it ' s rated well .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " sure , it ' s rated great !",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any plans for the weekend?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38201,10 +38769,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let me know if there's anything else I can do to make your stay as pleasant as possible.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38437,16 +39007,19 @@
     "beginning": [
      {
       "candidate": "It's a great way to find a place to stay.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I hope you have a great stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " If you need more time, please let us know and we'll try to accommodate you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38550,12 +39123,14 @@
     "beginning": [
      {
       "candidate": " kl is a great place to visit .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Are you traveling alone?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38642,10 +39217,12 @@
     "end": [
      {
       "candidate": "No.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It will be ready for you on the day of your arrival.  We hope you enjoy your stay!",
+      "label": "good",
       "justification": "social & useful"
      }
     ]
@@ -38715,16 +39292,19 @@
     "beginning": [
      {
       "candidate": "I love visiting there.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I hear it's lovely this time of year.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38879,6 +39459,7 @@
     "end": [
      {
       "candidate": "I hope you have a great trip!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -38999,6 +39580,7 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -39085,10 +39667,12 @@
     "end": [
      {
       "candidate": "Please enjoy the rest of your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Thank you for your interest.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -39186,10 +39770,12 @@
     "end": [
      {
       "candidate": " They will be able to help you with any questions you may have. I hope you enjoy your stay!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " They will be able to answer any questions you may have. I hope you have a great trip!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -39252,6 +39838,7 @@
     "beginning": [
      {
       "candidate": "I hope you have a great time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -39321,16 +39908,19 @@
     "beginning": [
      {
       "candidate": " you are very welcome .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you enjoy the rest of your stay here in the United States. Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -39495,6 +40085,7 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to visit KL.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -39627,10 +40218,12 @@
     "end": [
      {
       "candidate": " Is that correct?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I can help you out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -39749,6 +40342,7 @@
     "end": [
      {
       "candidate": " Is that okay?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -39852,6 +40446,7 @@
     "end": [
      {
       "candidate": "How about you?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -39914,16 +40509,19 @@
     "beginning": [
      {
       "candidate": "I hope you have a great trip.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I hear it's a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I'm a real estate agent, so I can help you find a good place to live.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -39993,10 +40591,12 @@
     "end": [
      {
       "candidate": " I wish you the best of luck in your future endeavors.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Have a nice day! Bye! Goodbye! Have a good day!  Bye.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -40250,16 +40850,19 @@
     "beginning": [
      {
       "candidate": " I live in Orange County, California. It's a great place to live.",
+      "label": "good",
       "justification": "useful"
      }
     ],
     "end": [
      {
       "candidate": " You should check it out.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " It is close to the beach.  I think I will stay there.  What do you think?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -40340,10 +40943,12 @@
     "end": [
      {
       "candidate": "What do you think?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I don't know if that's better or worse than the one you're looking at. What do you think?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -40543,10 +41148,12 @@
     "end": [
      {
       "candidate": " Do you think that's a good choice?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " That's the only other one I can think of off the top of my head. What do you think?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -40883,6 +41490,7 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -40955,10 +41563,12 @@
     "end": [
      {
       "candidate": "Regards,   Richard Nixon",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Enjoy the rest of your day.  Regards,   Richard Nixon",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -41273,10 +41883,12 @@
     "end": [
      {
       "candidate": "I think that's a good option.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " on Airbnb. That's the best I've found so far. Do you have any suggestions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -41347,6 +41959,7 @@
     "end": [
      {
       "candidate": " I don't know if that's a good deal or not.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -41430,10 +42043,12 @@
     "end": [
      {
       "candidate": " That's the cheapest I can find right now. Do you think that's a good option?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "What do you think about that one?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -41526,10 +42141,12 @@
     "end": [
      {
       "candidate": " Do you think it's a good deal?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Do you think it's a good place to live?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -41954,16 +42571,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Have a great day.    Regards,   Rachel   Airbnb Customer Service",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Laundry Service is a service that provides washing, drying, and folding of clothes.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -42213,16 +42833,19 @@
     "beginning": [
      {
       "candidate": " Oh, Paris is a great place to visit.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Do you think that would be a good place to stay?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Is there anything else I can help you with?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -42491,6 +43114,7 @@
     "end": [
      {
       "candidate": "Do you have any other suggestions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -42645,12 +43269,14 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to visit.",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": " If so, you should be good to go. If you have any other questions, let me know.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -42739,10 +43365,12 @@
     "end": [
      {
       "candidate": "Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let me know if there is anything else I can help you with. Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -42815,10 +43443,12 @@
     "end": [
      {
       "candidate": "See ya!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Buh bye!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -43023,12 +43653,14 @@
     "beginning": [
      {
       "candidate": " I live in Orange County. It is a great place to live.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " You should check it out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -43083,10 +43715,12 @@
     "beginning": [
      {
       "candidate": " It is a great place to live.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "it is a nice place .",
+      "label": "good",
       "justification": "useful"
      }
     ],
@@ -43592,10 +44226,12 @@
     "end": [
      {
       "candidate": "Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Please let me know if you have any other questions or concerns. Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -43661,10 +44297,12 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "have a great night .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -43738,10 +44376,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I wish you the best of luck in your future endeavors.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -43982,10 +44622,12 @@
     "end": [
      {
       "candidate": "Do you think it's a good place?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " out of 5 on TripAdvisor. Do you think it's a good place?",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -44258,10 +44900,12 @@
     "end": [
      {
       "candidate": "What do you think?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you think that would be a good place to live?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -44456,6 +45100,7 @@
     "end": [
      {
       "candidate": " and has a washer and dryer. Do you think that's a good place to stay?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -44895,6 +45540,7 @@
     "end": [
      {
       "candidate": "I hope you have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -44963,6 +45609,7 @@
     "end": [
      {
       "candidate": " Do you have any questions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45036,16 +45683,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "-Thank you, and have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Call me if you need anything.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45269,12 +45919,14 @@
     "beginning": [
      {
       "candidate": " Thank you for the information.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45408,10 +46060,12 @@
     "end": [
      {
       "candidate": "I hope you enjoy your stay in Atlanta, Georgia.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Have a nice stay!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -45475,16 +46129,19 @@
     "beginning": [
      {
       "candidate": "please let me know if you have any other questions for me to ask you .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any other questions for me?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I'd be more than happy to answer them for you!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45554,16 +46211,19 @@
     "beginning": [
      {
       "candidate": " You're very welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Goodbye, and have a nice day.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Enjoy your stay.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -45772,16 +46432,19 @@
     "beginning": [
      {
       "candidate": " That's a great location.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " that sounds like a nice place to stay .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " If so, I can do that for you.  What is the name of your conference?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45881,12 +46544,14 @@
     "beginning": [
      {
       "candidate": " Sounds good.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any recommendations for things to do in Seattle?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -45965,12 +46630,14 @@
     "beginning": [
      {
       "candidate": " I'm glad you think so.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Let me know if you have any other questions. Have a great day!  -Michael",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -46039,16 +46706,19 @@
     "beginning": [
      {
       "candidate": " Oh, okay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Good bye.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great night.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -46263,16 +46933,19 @@
     "beginning": [
      {
       "candidate": " Sounds good.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any preferences?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you want a suite or a standard room?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -46359,10 +47032,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Have a great stay!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -46459,12 +47134,14 @@
     "beginning": [
      {
       "candidate": "you can check it out .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any recommendations for things to do in London?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -46533,16 +47210,19 @@
     "beginning": [
      {
       "candidate": "I love visiting there.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It's a great place to visit.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I can't wait to party!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -46770,16 +47450,19 @@
     "beginning": [
      {
       "candidate": "Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " That is a great hotel.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Is that correct?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -46866,6 +47549,7 @@
     "end": [
      {
       "candidate": "We look forward to seeing you soon!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -46928,16 +47612,19 @@
     "beginning": [
      {
       "candidate": " You're welcome. I hope you enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "i hope you have a wonderful time .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I'd love to help you get a great deal on your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -47006,16 +47693,19 @@
     "beginning": [
      {
       "candidate": " i ' m sure you ' ll be fine .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Thank you very much for your time and consideration.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time at the casa loma hotel.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -47386,16 +48076,19 @@
     "beginning": [
      {
       "candidate": "thanks for the heads up .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I've never stayed there, but I've heard good things.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any recommendations?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -47507,10 +48200,12 @@
     "end": [
      {
       "candidate": " Enjoy your stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Correct?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -47574,16 +48269,19 @@
     "beginning": [
      {
       "candidate": "I hope you enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " You are welcome. I hope you enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -47654,10 +48352,12 @@
     "end": [
      {
       "candidate": "Goodbye.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Have a good day. Goodbye. Have a nice day, bye. Bye.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -47793,12 +48493,14 @@
     "beginning": [
      {
       "candidate": " that sounds like a nice place to stay .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "I prefer the standard rooms.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -47934,6 +48636,7 @@
     "beginning": [
      {
       "candidate": " That's a great time of year to go.",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
@@ -48022,10 +48725,12 @@
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Thank you for booking with us.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48102,6 +48807,7 @@
     "end": [
      {
       "candidate": "I can't wait!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48165,12 +48871,14 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I can answer any questions you might have about hotels or reservations.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48241,10 +48949,12 @@
     "end": [
      {
       "candidate": " I hope you have a great time at the holiday inn london on the 1st of march.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I do not have any more questions for you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48385,16 +49095,19 @@
     "beginning": [
      {
       "candidate": " That's a great place to stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " that sounds like a nice place to stay .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I can give you some recommendations for hotels in the area if you tell me a bit more about yourself.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48513,10 +49226,12 @@
     "end": [
      {
       "candidate": " How much do you want to pay?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Just let me know when you're ready.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48624,6 +49339,7 @@
     "beginning": [
      {
       "candidate": " okay , that ' s fine then .",
+      "label": "good",
       "justification": "useful"
      }
     ],
@@ -48717,6 +49433,7 @@
     "beginning": [
      {
       "candidate": " yes , you can .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -48785,16 +49502,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Don't forget to tip your waitress.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48912,10 +49632,12 @@
     "end": [
      {
       "candidate": " There are so many to choose from.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I've stayed at a few of them in the past, and they've all been nice.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -48980,6 +49702,7 @@
     "beginning": [
      {
       "candidate": " that ' s a great choice .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -49111,6 +49834,7 @@
     "beginning": [
      {
       "candidate": " that ' s a good idea .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -49197,6 +49921,7 @@
     "end": [
      {
       "candidate": "Please enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -49258,10 +49983,12 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i hope you enjoy your stay and i ' m sure you ' ll have a great time .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -49330,16 +50057,19 @@
     "beginning": [
      {
       "candidate": "i hope you enjoy your stay .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great stay at the hotel I booked for you. Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -49493,10 +50223,12 @@
     "beginning": [
      {
       "candidate": " That sounds like a great place to stay. I hope you get the chance to check it out.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " That sounds like a great place to stay.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -49618,16 +50350,19 @@
     "beginning": [
      {
       "candidate": "The Spring Hill Suites is a great hotel.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " That's a great time of year to go.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " If you do, you will get a complimentary night certificate for your trouble.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -49737,6 +50472,7 @@
     "end": [
      {
       "candidate": "Do you have any plans?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -49798,6 +50534,7 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -49866,16 +50603,19 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Bye!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you have any tips for me?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -50090,10 +50830,12 @@
     "beginning": [
      {
       "candidate": " that sounds like a great place to stay .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is a great resource for booking hotels.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -50181,12 +50923,14 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you very much.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -50263,6 +51007,7 @@
     "end": [
      {
       "candidate": " It is a very nice hotel.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -50355,16 +51100,19 @@
     "beginning": [
      {
       "candidate": " the hotel does not allow pets .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " It is located in Manhattan.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It is located in Manhattan, Brooklyn, Queens, and the Bronx.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -50435,10 +51183,12 @@
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " If you have any other questions, don't hesitate to ask.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -50654,10 +51404,12 @@
     "end": [
      {
       "candidate": "It's a great hotel.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": " If so, I would love to have you as a guest. It's a great hotel.",
+      "label": "bad",
       "justification": "bad - other reason"
      }
     ]
@@ -50761,12 +51513,14 @@
     "beginning": [
      {
       "candidate": "Please feel free to contact us at info@hotel91.com",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you for your patience.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -50841,16 +51595,19 @@
     "beginning": [
      {
       "candidate": " i don ' t know the exact price , but i know it ' s not cheap .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Is that too much?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Are you sure you want to pay that much for a night in a hotel with no pets?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -50919,16 +51676,19 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "i hope you have a great time and enjoy your stay at the hotel .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -51143,16 +51903,19 @@
     "beginning": [
      {
       "candidate": " wow , that sounds like a lot of fun .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Is this correct?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I hope you don't mind me asking, but why are you booking so far in advance?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -51247,6 +52010,7 @@
     "end": [
      {
       "candidate": " I'm sure you'll find something that suits you just fine. Have a great trip!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -51316,26 +52080,32 @@
     "end": [
      {
       "candidate": "Bye bye.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Bye!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  I'll see you tomorrow.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Buh bye!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let me know if you change your mind.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Let me know if you change your mind, and I'll see if I can get you a better deal.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -51562,6 +52332,7 @@
     "beginning": [
      {
       "candidate": " meriton suite north is a great place to stay .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -51760,40 +52531,49 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  THANK YOU.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "good luck .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " you are welcome . good luck .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "i hope you get your room .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I HOPE YOU ENJOY YOUR TIME THERE.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I HOPE YOU FIND A PLACE TO ENJOY YOURSELF.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I HOPE YOU FIND WHAT YOU ARE LOOKING FOR.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " IF YOU HAVE ANY QUESTIONS PLEASE DON'T BE AFRAID TO EMAIL ME.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52008,12 +52788,14 @@
     "beginning": [
      {
       "candidate": " Thank you for your time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you very much.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -52098,12 +52880,14 @@
     "beginning": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " do you have any recommendations for hotels in kuala lumpur, next wednesday?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52165,16 +52949,19 @@
     "beginning": [
      {
       "candidate": "I work at a hotel as a housekeeper.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I'm happy to help.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I have a lot of experience booking hotels in Thailand, Laos and Cambodia.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52242,16 +53029,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Enjoy your stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I just got back from a trip to Hawaii.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52391,16 +53181,19 @@
     "beginning": [
      {
       "candidate": " that sounds like a lot of fun .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " that ' s a long time to stay .",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": " There are so many to choose from.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52518,16 +53311,19 @@
     "beginning": [
      {
       "candidate": " that ' s a good choice .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " If you want more than 1 room, please let us know as soon as possible.  Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -52630,6 +53426,7 @@
     "beginning": [
      {
       "candidate": " yes , it does .",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -52698,16 +53495,19 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I love staying at the Parc hotel in Paris, it's a great place to stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -52936,16 +53736,19 @@
     "beginning": [
      {
       "candidate": " that sounds like a lot of fun .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It's a great resource for booking hotels.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any special requests for the room?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -53038,6 +53841,7 @@
     "end": [
      {
       "candidate": " The check-in date is on the third and you need your room for ten days, correct?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -53122,16 +53926,19 @@
     "beginning": [
      {
       "candidate": "It is located in downtown Manhattan.",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": "Have a nice stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You will receive a confirmation email with the details of your booking.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -53199,16 +54006,19 @@
     "beginning": [
      {
       "candidate": " thank you , i appreciate that .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I am sure you will enjoy your stay.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -53504,12 +54314,14 @@
     "beginning": [
      {
       "candidate": " great .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Please enjoy your stay.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -53578,36 +54390,44 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " you are welcome . i hope you enjoy your stay .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I work at a hotel.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Let me know if there is anything else I can help you with.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you enjoy your stay in the Park Ave Hotel in Manhattan, New York City.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -53930,6 +54750,7 @@
     "beginning": [
      {
       "candidate": " ok , thank you very much .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -54047,6 +54868,7 @@
     "beginning": [
      {
       "candidate": " That's great.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -54133,10 +54955,12 @@
     "end": [
      {
       "candidate": "Have a great stay!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Have a nice stay!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -54205,10 +55029,12 @@
     "end": [
      {
       "candidate": " I hope you enjoy your stay!",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Do you have any other plans while you are here?",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -54270,6 +55096,7 @@
     "beginning": [
      {
       "candidate": "I know I will.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -54338,16 +55165,19 @@
     "beginning": [
      {
       "candidate": " You're very welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any special requests for your stay?",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": " I hope you enjoy your stay.  Do you have any special requests for your stay?",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -54597,12 +55427,14 @@
     "beginning": [
      {
       "candidate": " that would be a great place to stay .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Would you be interested in staying there?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -54667,10 +55499,12 @@
     "end": [
      {
       "candidate": "It is a great place to stay.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It is right next to the Skytrain station. It is a great place to stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -54735,10 +55569,12 @@
     "end": [
      {
       "candidate": " They are very helpful.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I'm sure they'll be able to help you out.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -54995,6 +55831,7 @@
     "end": [
      {
       "candidate": " I don't want you to miss out on a good deal.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -55357,16 +56194,19 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great weekend.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great weekend.    All the best,   Richard Nixon",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -55626,16 +56466,19 @@
     "beginning": [
      {
       "candidate": " Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It's a good idea to do so.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  I would recommend it to anyone who is looking for a great place to stay.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -55717,6 +56560,7 @@
     "end": [
      {
       "candidate": " Enjoy your stay!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -55997,6 +56841,7 @@
     "end": [
      {
       "candidate": "Have a great stay!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -56061,10 +56906,12 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i hope you have a great time and i ' m sure you ' ll enjoy your stay .",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
@@ -56136,16 +56983,19 @@
     "beginning": [
      {
       "candidate": "i am sure you will enjoy it .",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay at the Holiday Inn Express on 45th and Lamar.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I hope you enjoy your stay in New York City.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -56597,6 +57447,7 @@
     "end": [
      {
       "candidate": "Do you think that would be a good place to stay?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -56689,6 +57540,7 @@
     "end": [
      {
       "candidate": "I hope you like it.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -56772,6 +57624,7 @@
     "end": [
      {
       "candidate": "I stayed there last year and it was great.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -56930,6 +57783,7 @@
     "end": [
      {
       "candidate": "is a great deal.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -57038,10 +57892,12 @@
     "beginning": [
      {
       "candidate": " Will do.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Thanks for the heads up.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -57243,10 +58099,12 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You are welcome. Have a nice stay.",
+      "label": "good",
       "justification": "social"
      }
     ],
@@ -57322,10 +58180,12 @@
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Enjoy your stay at the Ace hotel in Chicago.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -57589,16 +58449,19 @@
     "beginning": [
      {
       "candidate": "  Please let me know if you know of any hotels in the area that allow pets.Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Is that a good choice?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  Can you provide me with the location of that hotel?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -57679,6 +58542,7 @@
     "end": [
      {
       "candidate": " It's located near the Golden Gate Bridge, so it would be convenient for you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -58085,10 +58949,12 @@
     "end": [
      {
       "candidate": "Thanks!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " What is the name of the person you are booking the rooms for?   Thanks!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -58206,6 +59072,7 @@
     "end": [
      {
       "candidate": " Would you like a complimentary bottle of champagne as a thank you for your business?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -58280,16 +59147,19 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay at the BAH.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Cheers! Ray",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -58550,10 +59420,12 @@
     "end": [
      {
       "candidate": "If you're looking for a place to stay in London, this is the place to go.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "It's a great place to stay.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -58915,12 +59787,14 @@
     "beginning": [
      {
       "candidate": " That will be a great time of year to visit London.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " That sounds like a good plan to me.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -59101,16 +59975,19 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " What do you want to know ?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " What do you want to know about the hotel ?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -59185,16 +60062,19 @@
     "beginning": [
      {
       "candidate": "I am sure you will enjoy your stay in London.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  very much for your time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " and enjoy your stay at the Ace hotel in London.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -59455,10 +60335,12 @@
     "end": [
      {
       "candidate": "  If you are looking for a place to stay in Kenya, this is the place for you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is located in the heart of the city and is a great place to go for a night out.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -59545,10 +60427,12 @@
     "end": [
      {
       "candidate": " What do you think?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Do you want the suite or the bungalow?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -59633,6 +60517,7 @@
     "end": [
      {
       "candidate": " I can't wait to meet you!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -59753,16 +60638,19 @@
     "beginning": [
      {
       "candidate": " Will do, I hope you enjoy your stay.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Have a great trip!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Do you need anything else?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -59936,10 +60824,12 @@
     "end": [
      {
       "candidate": " All the best, Maurice",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " All the best,  Paul L.  R.   RΛZΞR | Caziel",
+      "label": "bad",
       "justification": "misleading"
      }
     ]
@@ -60199,16 +61089,19 @@
     "beginning": [
      {
       "candidate": " I have never been to London, but I have heard it is a great place to visit.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "It is a great place to relax and have a good time.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "  If you are looking for a place to stay in London then this is the place for you.",
+      "label": "good",
       "justification": "useful"
      }
     ]
@@ -60296,6 +61189,7 @@
     "end": [
      {
       "candidate": "You should check it out.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -60583,10 +61477,12 @@
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "Have a great stay!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -60682,6 +61578,7 @@
     "end": [
      {
       "candidate": "Do you have any recommendations?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -60753,16 +61650,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy your stay at the hotel.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Cheers.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -60899,16 +61799,19 @@
     "beginning": [
      {
       "candidate": " that ' s a good one .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  If you do not want to see the subtitles, please leave this field blank.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It is a dubbed version.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -60997,6 +61900,7 @@
     "end": [
      {
       "candidate": " It is my favorite movie.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -61112,16 +62016,19 @@
     "beginning": [
      {
       "candidate": " The director is Peter Jackson.",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": " Do you like thrillers?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " It is based on the novel of the same name by James Fenimore Cooper.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -61182,16 +62089,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "please .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any plans for the weekend?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -61327,10 +62237,12 @@
     "end": [
      {
       "candidate": " There are so many to choose from.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "  Let me know in the comments.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -61476,16 +62388,19 @@
     "beginning": [
      {
       "candidate": "Is it expensive?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Thank you. Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -61577,10 +62492,12 @@
     "end": [
      {
       "candidate": "I hope you enjoy the rest of your evening.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Thank you for your patronage. I hope you enjoy the rest of your evening.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -61652,16 +62569,19 @@
     "beginning": [
      {
       "candidate": " You're welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "It's the least i can do.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Don't forget to tip your waiter/waitress. It's the least i can do.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -61825,16 +62745,19 @@
     "beginning": [
      {
       "candidate": "I love Italian food.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Or do you want to find a restaurant that specializes in that type of cuisine?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " There are so many to choose from.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -61970,12 +62893,14 @@
     "beginning": [
      {
       "candidate": "i ' ll have to check it out .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you for your patronage.  I hope you enjoy your meal.  Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -62103,10 +63028,12 @@
     "end": [
      {
       "candidate": " Do you have a preference for the type of food you'd like to eat at this establishment?",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Do you have a preferred type of music that you'd like to listen to while you eat?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -62179,16 +63106,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "I hope you enjoy your meal.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Thank you for reserving a table at Chilis Grill and Bar. I hope you enjoy your meal.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -62430,14 +63360,17 @@
     "beginning": [
      {
       "candidate": "I hope you enjoy your meal.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " That should be no problem.",
+      "label": "bad",
       "justification": "misleading"
      },
      {
       "candidate": " that sounds like a lot of fun .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -62596,32 +63529,39 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you for your time.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you have any reservations for the rest of the day?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " If you need anything else, please don't hesitate to contact me.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I do not have any.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you have a great time at your artisan bistro tonight.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63044,44 +63984,54 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i hope you enjoy your stay .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": " I hope you enjoy the rest of your day.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Have a nice day.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you find what you are looking for.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "   I hope to see you again soon.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "Please call me back if you have any other questions.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you enjoy the rest of your day. Please call me back if you have any other questions.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I hope you find what you are looking for. Please let me know if you have any other questions.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63306,6 +64256,7 @@
     "end": [
      {
       "candidate": " Thank you very much.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63397,10 +64348,12 @@
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I look forward to serving you!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63501,6 +64454,7 @@
     "end": [
      {
       "candidate": "Have a great time!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -63566,16 +64520,19 @@
     "beginning": [
      {
       "candidate": "I hope you have a great time at the restaurant.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is one of my favorites.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any other questions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63647,16 +64604,19 @@
     "beginning": [
      {
       "candidate": " you are very welcome .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " I wish you all the best in your future endeavors. Have a great day.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -63899,16 +64859,19 @@
     "beginning": [
      {
       "candidate": "I will make sure to check it out.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " i ' ve never heard of that place ! i ' ll have to check it out , thanks !",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have a preferred type of food?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -64131,6 +65094,7 @@
     "end": [
      {
       "candidate": "I hope you enjoy the rest of your day as well!",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -64194,16 +65158,19 @@
     "beginning": [
      {
       "candidate": " You are very welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " You are very welcome. I hope you enjoy the rest of your stay in Los Angeles.",
+      "label": "bad",
       "justification": "misleading"
      }
     ],
     "end": [
      {
       "candidate": " I'll be here all day.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -64273,16 +65240,19 @@
     "beginning": [
      {
       "candidate": " that ' s great .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Bye bye.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " I'm sure I'll see you again.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -64508,16 +65478,19 @@
     "beginning": [
      {
       "candidate": "If you are looking for a place to eat breakfast, brunch, lunch, or dinner, Fontana is the place to go.",
+      "label": "good",
       "justification": "useful"
      },
      {
       "candidate": "I will check it out.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any other recommendations for restaurants?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -64632,16 +65605,19 @@
     "beginning": [
      {
       "candidate": " Of course.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Do you have any special requests?",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " The type of food is italian.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -64707,6 +65683,7 @@
     "beginning": [
      {
       "candidate": "i hope you have a great time at your family ' s brunch .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -64779,16 +65756,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I hope you have a great rest of your evening.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65015,10 +65995,12 @@
     "end": [
      {
       "candidate": " Thank you very much.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " Thank you for your patience and cooperation.  Have a great day!",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65133,16 +66115,19 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Thank you for your patience.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Do you have a preference for the type of food you would like to be served at this restaurant?",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -65224,12 +66209,14 @@
     "beginning": [
      {
       "candidate": " ok .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "P.S.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65300,16 +66287,19 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "Bye bye.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I'll make sure to tip generously.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65575,12 +66565,14 @@
     "beginning": [
      {
       "candidate": "i ' ll have to check it out .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " What time do you plan to arrive?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65787,10 +66779,12 @@
     "end": [
      {
       "candidate": "I hope you enjoy the rest of your evening.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Please arrive at the restaurant at least 15 minutes before your scheduled time. Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65856,16 +66850,19 @@
     "beginning": [
      {
       "candidate": " you ' re welcome . i hope it works out for you and i ' m sure you ' ll enjoy it .",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " You are welcome. I hope you have a great time.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any other reservations you would like me to take care of for you today?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -65937,16 +66934,19 @@
     "beginning": [
      {
       "candidate": " Do you have any plans for today?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "  If you have any questions, please feel free to contact us.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " If you need anything else, please don't hesitate to contact us.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66188,16 +67188,19 @@
     "beginning": [
      {
       "candidate": "i ' ll have to check it out .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": " i ' ve never heard of kuletos .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Thank you.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -66345,10 +67348,12 @@
     "beginning": [
      {
       "candidate": " that ' s good to hear .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I'm more of a night owl.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
@@ -66416,12 +67421,14 @@
     "beginning": [
      {
       "candidate": " Why not? Is it because it is too crowded or because you don't like the restaurant?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " Do you have any questions?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66494,16 +67501,19 @@
     "beginning": [
      {
       "candidate": " i ' m so sorry .",
+      "label": "good",
       "justification": "social"
      }
     ],
     "end": [
      {
       "candidate": "  Thank you for your time.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " How are you today?",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66728,10 +67738,12 @@
     "end": [
      {
       "candidate": " If you do not confirm, we will cancel your reservation.  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "I hope you enjoy your stay in the Bay Area.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66847,10 +67859,12 @@
     "end": [
      {
       "candidate": "Thank you so much!",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " Thank you so much for the reservation.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66916,16 +67930,19 @@
     "beginning": [
      {
       "candidate": " you are welcome .",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "It is a great restaurant.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": "Just let me know what you need and I'll see what I can do.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -66997,16 +68014,19 @@
     "beginning": [
      {
       "candidate": "  Thank you.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I hope you have a great time at the restaurant.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "I like to go for walks in the park.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -67235,12 +68255,14 @@
     "beginning": [
      {
       "candidate": "thanks !",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " I can do that.",
+      "label": "good",
       "justification": "social"
      }
     ]
@@ -67332,14 +68354,17 @@
     "end": [
      {
       "candidate": " for two.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  and ready to go.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  on a first come, first served basis.",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ]
@@ -67411,24 +68436,29 @@
     "beginning": [
      {
       "candidate": " You are welcome.",
+      "label": "good",
       "justification": "social"
      },
      {
       "candidate": "i ' m looking forward to meeting you .",
+      "label": "bad",
       "justification": "inappropriate"
      }
     ],
     "end": [
      {
       "candidate": " and enjoy your sushi",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": "  and see you soon.",
+      "label": "bad",
       "justification": "inappropriate"
      },
      {
       "candidate": " and enjoy your stay in oakland, the most populous city in the state of california",
+      "label": "bad",
       "justification": "misleading"
      }
     ]

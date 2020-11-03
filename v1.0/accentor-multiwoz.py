@@ -19,7 +19,7 @@ if __name__ == '__main__':
             data[x]["log"][i]["beginning"] = []
             data[x]["log"][i]["end"] = []
         for cc in augmentation[x]:
-            data[x]["log"][cc[0]][cc[1]] += [{"candidate": cc[2], "justification": cc[3]}]
+            data[x]["log"][cc[0]][cc[1]] += [{"candidate": cc[2], "label": cc[3], "justification": cc[4]}]
 
     with open("accentor-multiwoz-1k.json", "w", encoding='utf8') as f:
         json.dump(data, f, indent=1, ensure_ascii=False)

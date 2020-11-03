@@ -27,7 +27,7 @@ if __name__ == '__main__':
                         data[i]["turns"][j]["beginning"] = []
                         data[i]["turns"][j]["end"] = []
                     for cc in augmentation[subdir + data[i]["dialogue_id"]]:
-                        data[i]["turns"][cc[0]][cc[1]] += [{"candidate": cc[2], "justification": cc[3]}]
+                        data[i]["turns"][cc[0]][cc[1]] += [{"candidate": cc[2], "candidate": cc[3], "justification": cc[4]}]
             with open(os.path.join(targetdir, fn), "w", encoding='utf8') as f:
                 json.dump(data, f, indent=1, ensure_ascii=False)
             
