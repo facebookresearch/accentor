@@ -17,21 +17,22 @@ For more details, please refer to this [paper][accentor_arxiv].
 ```
 {
  "dialogue 1 / id": [
- [
-  dialogue 1 / candidate 1 / turn id,
-  dialogue 1 / candidate 1 / position,
-  dialogue 1 / candidate 1 / candidate,
-  dialogue 1 / candidate 1 / justification
+  [
+   dialogue 1 / candidate 1 / turn id,
+   dialogue 1 / candidate 1 / position,
+   dialogue 1 / candidate 1 / candidate,
+   dialogue 1 / candidate 1 / justification
+  ],
+  [
+   dialogue 1 / candidate 2 / turn id,
+   ...
+  ],
+  ...
  ],
- [
-  dialogue 1 / candidate 2 / turn id,
+ "dialogue 2 / id": [
   ...
  ],
  ...
- ],
- "dialogue 2 / id": [
- ...
- ],
 }
 ```
 
