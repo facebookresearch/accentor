@@ -1,4 +1,4 @@
-# ACCENTOR: Adding Chit-chats to Enhance Task-oriented Dialogues
+# ACCENTOR: Adding Chit-Chats to Enhance Task-Oriented Dialogues
 
 ## Overview
 
@@ -44,7 +44,7 @@ For more details, please refer to this [paper][accentor_arxiv].
 If you want to publish experimental results with our datasets or use the baseline models, please cite the following article ([pdf][accentor_arxiv]):
 ```
 @article{sun2020adding,
-  title={Adding Chit-chats to Enhance Task-oriented Dialogues},
+  title={Adding Chit-Chats to Enhance Task-Oriented Dialogues},
   author={Sun, Kai and Moon, Seungwhan and Crook, Paul and Roller, Stephen and Silvert, Becka and Liu, Bing and Wang, Zhiguang and Liu, Honglei and Cho, Eunjoon and Cardie, Claire},
   journal={arXiv preprint arXiv:2010.12757},
   year={2020}
