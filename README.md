@@ -119,7 +119,7 @@ python3 -m schema_guided_dst.evaluate --dstc8_data_dir ./simpletod/ --prediction
 **Environment**
 
 * ParlAI ([af12799a](https://github.com/facebookresearch/ParlAI/commit/af12799a4c2b5706a2b26b2d2bd169579fcd9ce8))
-* Transformers (2.11.0). 
+* Transformers (2.11.0) 
 
 ## Citations
 
