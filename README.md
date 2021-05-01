@@ -92,7 +92,7 @@ python3 run_generation.py --input lm.input.test.eval.txt --output test.inference
 ```
 python3 gen_arranger_input.py
 
-python3 run_multiple_choice.py --model_type roberta --task_name acc --model_name_or_path roberta-base --do_train --do_eval --do_test --do_lower_case --data_dir . --learning_rate 2e-5 --num_train_epochs 3 --max_seq_length 512 --output_dir acc2_roberta_base_3 --per_gpu_eval_batch_size=16 --per_gpu_train_batch_size=1 --gradient_accumulation_steps 24 --overwrite_output --save_steps 10000
+python3 run_multiple_choice.py --model_type roberta --task_name acc --model_name_or_path roberta-base --do_train --do_eval --do_test --do_lower_case --data_dir . --learning_rate 2e-5 --num_train_epochs 3 --max_seq_length 512 --output_dir acc_arranger_roberta_base_3epoch --per_gpu_eval_batch_size=16 --per_gpu_train_batch_size=1 --gradient_accumulation_steps 24 --overwrite_output --save_steps 10000
 
 python3 gen_arranger_output.py
 ```
