@@ -104,7 +104,7 @@ python3 gen_arranger_output.py
 ```
 python3 gen_rewriter_data.py
 
-python3 run_language_modeling.py  --output_dir=output_ff_gpt2_10epoch_1e-3_fp16  --model_type=gpt2  --model_name_or_path=gpt2  --do_train  --train_data_file=lm.input.train.ff.txt  --do_eval   --eval_data_file=lm.input.dev.ff.txt  --per_device_train_batch_size 2  --gradient_accumulation_steps 18 --num_train_epochs 10 --learning_rate 1e-3 --fp16 --overwrite_output_dir
+python3 run_language_modeling.py --output_dir=output_ff_gpt2_10epoch_1e-3_fp16 --model_type=gpt2 --model_name_or_path=gpt2 --do_train --train_data_file=lm.input.train.ff.txt  --do_eval --eval_data_file=lm.input.dev.ff.txt --per_device_train_batch_size 2 --gradient_accumulation_steps 18 --num_train_epochs 10 --learning_rate 1e-3 --fp16 --overwrite_output_dir
 
 python3 run_generation.py --input lm.input.dev.eval.ff.txt --output dev.inference.ff_gpt2_10epoch_1e-3_fp16.json --model_name_or_path ./output_ff_gpt2_10epoch_1e-3_fp16 --eos_token_id 50262
 
