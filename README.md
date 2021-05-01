@@ -47,7 +47,9 @@ For more details, please refer to this [paper][accentor_arxiv].
 
 **Preparation** 
 
-Run the following commands to prepare the data for model training and the off-the-shelf models (i.e., a task-oriented dialogue model and a chit-chat model) for Arranger and Rewriter.
+* Dependencies: ParlAI ([af12799a](https://github.com/facebookresearch/ParlAI/commit/af12799a4c2b5706a2b26b2d2bd169579fcd9ce8)) and Transformers (2.11.0)
+
+* Run the following commands to prepare the data for model training and the off-the-shelf models (i.e., a task-oriented dialogue model and a chit-chat model) for Arranger and Rewriter.
 
 ```
 cp -r ../v1.0/accentor-sgd .
@@ -72,6 +74,8 @@ python3 run_generation.py --input lm.input.test.eval.txt --output test.inference
 
 **SimpleTOD+**
 
+* Dependencies: Transformers 2.11.0
+
 ```
 python3 run_language_modeling.py --output_dir=output_both_gpt2_10epoch_1e-3_fp16 --model_type=gpt2 --model_name_or_path=gpt2 --do_train --train_data_file=lm.input.train.both.txt --do_eval  --eval_data_file=lm.input.dev.both.txt --per_device_train_batch_size 2 --gradient_accumulation_steps 18 --num_train_epochs 10 --learning_rate 1e-3 --fp16 --overwrite_output_dir
 
@@ -83,6 +87,8 @@ python3 run_generation.py --input lm.input.test.eval.txt --output test.inference
 
 **Arranger**
 
+* Dependencies: Transformers 2.2.0
+
 ```
 python3 gen_arranger_input.py
 
@@ -92,6 +98,8 @@ python3 gen_arranger_output.py
 ```
 
 **Rewriter**
+
+* Dependencies: Transformers 2.11.0
 
 ```
 python3 gen_rewriter_data.py
@@ -106,20 +114,18 @@ python3 run_generation.py --input lm.input.test.eval.ff.txt --output test.infere
 
 **Evaluation**
 
-Pass the output inference files (i.e., ```{dev,test}.inference*.json```) to ```gen_predict.py``` to obtain act-slot F1 and BLEU-4 scores. For example,
+* Dependencies: the [official evaluation script of SGD](https://github.com/google-research/google-research/tree/master/schema_guided_dst)
+
+* Pass the output inference files (i.e., ```{dev,test}.inference*.json```) to ```gen_predict.py``` to obtain act-slot F1 and BLEU-4 scores. For example,
 ```
 python3 gen_predict.py --inference test.inference.both_gpt2_10epoch_1e-3_fp16.json --split test
 ```
 
-The above command will also generate a folder (named ```./prediction/``` by default), which can be used by the [official evaluation script of SGD](https://github.com/google-research/google-research/tree/master/schema_guided_dst) to obtain the joint goal accuracy and average accuracy. For example,
+* The above command will also generate a folder (named ```./prediction/``` by default), which can be passed to the official evaluation script of SGD to obtain the joint goal accuracy and average accuracy. For example,
 ```
 python3 -m schema_guided_dst.evaluate --dstc8_data_dir ./simpletod/ --prediction_dir ./prediction/test/ --eval_set test --output_metric_file simpletod+_test_result.json
 ``` 
 
-**Environment**
-
-* ParlAI ([af12799a](https://github.com/facebookresearch/ParlAI/commit/af12799a4c2b5706a2b26b2d2bd169579fcd9ce8))
-* Transformers (2.11.0) 
 
 ## Citations
 
