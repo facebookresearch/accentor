@@ -1,10 +1,12 @@
 ## Baselines
 
-*** This README is being updated. ***
-
 ### Preparation 
 
+Run following commands to prepare the data for model training and the off-the-shelf models (i.e., a task-oriented dialogue model and a chit-chat model) for Arranger and Rewriter.
+
 ```
+cp -r ../v1.0/accentor-sgd .
+
 python3 gen_delex.py
 
 python3 gen_parlai_data.py
@@ -69,3 +71,6 @@ The above command will also generate a folder (named ```./prediction/``` by defa
 python3 -m schema_guided_dst.evaluate --dstc8_data_dir ./simpletod/ --prediction_dir ./prediction/test/ --eval_set test --output_metric_file simpletod+_test_result.json
 ``` 
 
+### Environment
+
+The code has been tested with ParlAI ([af12799a](https://github.com/facebookresearch/ParlAI/commit/af12799a4c2b5706a2b26b2d2bd169579fcd9ce8)) and Transformers (2.11.0). 
