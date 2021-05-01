@@ -74,7 +74,7 @@ python3 run_generation.py --input lm.input.test.eval.txt --output test.inference
 
 **SimpleTOD+**
 
-* Dependencies: Transformers 2.11.0
+* Dependency: Transformers (2.11.0)
 
 ```
 python3 run_language_modeling.py --output_dir=output_both_gpt2_10epoch_1e-3_fp16 --model_type=gpt2 --model_name_or_path=gpt2 --do_train --train_data_file=lm.input.train.both.txt --do_eval  --eval_data_file=lm.input.dev.both.txt --per_device_train_batch_size 2 --gradient_accumulation_steps 18 --num_train_epochs 10 --learning_rate 1e-3 --fp16 --overwrite_output_dir
@@ -87,7 +87,7 @@ python3 run_generation.py --input lm.input.test.eval.txt --output test.inference
 
 **Arranger**
 
-* Dependencies: Transformers 2.2.0
+* Dependency: Transformers (2.2.0)
 
 ```
 python3 gen_arranger_input.py
