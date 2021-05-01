@@ -114,7 +114,7 @@ python3 run_generation.py --input lm.input.test.eval.ff.txt --output test.infere
 
 **Evaluation**
 
-* Dependencies: the [official evaluation script of SGD](https://github.com/google-research/google-research/tree/master/schema_guided_dst)
+* Dependencies: [the official evaluation script of SGD](https://github.com/google-research/google-research/tree/master/schema_guided_dst)
 
 * Pass the output inference files (i.e., ```{dev,test}.inference*.json```) to ```gen_predict.py``` to obtain act-slot F1 and BLEU-4 scores. For example,
 ```
