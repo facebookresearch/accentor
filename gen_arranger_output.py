@@ -2,7 +2,7 @@
 
 import json
 
-with open("is_test_true_eval_logits.txt", "r") as f:
+with open("./acc_arranger_roberta_base_3epoch/is_test_true_eval_logits.txt", "r") as f:
     model_outputs = f.read().strip().split("\n")
     for i in range(len(model_outputs)):
         model_outputs[i] = model_outputs[i].split()
