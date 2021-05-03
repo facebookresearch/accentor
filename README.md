@@ -1,4 +1,4 @@
-# ACCENTOR: Adding Chit-Chats to Enhance Task-Oriented Dialogues
+# ACCENTOR: Adding Chit-Chat to Enhance Task-Oriented Dialogues
 
 ## Overview
 
@@ -52,7 +52,7 @@ For more details, please refer to this [paper][accentor_arxiv].
 * Run the following commands to prepare the data for model training and the off-the-shelf models (i.e., a task-oriented dialogue model and a chit-chat model) for Arranger and Rewriter.
 
 ```
-cp -r ../v1.0/accentor-sgd .
+cp -r ./v1.0/accentor-sgd .
 
 python3 gen_delex.py
 
@@ -131,11 +131,12 @@ python3 -m schema_guided_dst.evaluate --dstc8_data_dir ./simpletod/ --prediction
 
 If you want to publish experimental results with our datasets or use the baseline models, please cite the following article ([pdf][accentor_arxiv]):
 ```
-@article{sun2020adding,
-  title={Adding Chit-Chats to Enhance Task-Oriented Dialogues},
+@inproceedings{sun2020adding,
+  title={Adding Chit-Chat to Enhance Task-Oriented Dialogues},
   author={Sun, Kai and Moon, Seungwhan and Crook, Paul and Roller, Stephen and Silvert, Becka and Liu, Bing and Wang, Zhiguang and Liu, Honglei and Cho, Eunjoon and Cardie, Claire},
-  journal={arXiv preprint arXiv:2010.12757},
-  year={2020}
+  booktitle={Proceedings of the NAACL-HLT},
+  year={2021},
+  url={https://arxiv.org/abs/2010.12757}
 }
 ```
 
