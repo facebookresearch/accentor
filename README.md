@@ -8,7 +8,13 @@ We also provide three new models for ACCENTOR explicitly trained to predict user
 
 Automatic and human evaluations show that, compared with the state of-the-art task-oriented baseline, our models can code-switch between task and chit-chat to be more engaging, interesting, knowledgeable, and humanlike, while maintaining competitive task performance.
 
-For more details, please refer to this [paper][accentor_arxiv].
+For more details, please refer to this [paper][accentor_arxiv] (NAACL 2021).
+
+<figure>
+<img src="./accentor_example.png" width="400" alt="Example from SIMMC" align="center"> 
+<figcaption><i>Example from ACCENTOR-SGD Dataset</i></figcaption> 
+</figure>
+
 
 ## Data
 
